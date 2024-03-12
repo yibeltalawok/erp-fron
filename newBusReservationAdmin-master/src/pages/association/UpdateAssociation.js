@@ -69,7 +69,6 @@ const UpdateAssociation = (props) => {
                   <div>
                     <Box class="w-full inline-flex border">
                       <TextField
-                      label="Enter association name"
                       variant="outlined"
                         size="small"
                         fullWidth
@@ -79,7 +78,6 @@ const UpdateAssociation = (props) => {
                           pattern: /[a-zA-Z]+$/,
                         })}
                         class="w-11/12 focus:outline-none focus:text-gray-600 p-2"
-                        placeholder="enter association name"
                       />
                     </Box>
                     {errors.associationName && (
@@ -99,7 +97,6 @@ const UpdateAssociation = (props) => {
                   <div>
                     <Box class="w-full inline-flex border">
                       <TextField
-                      label="enter association address"
                       variant="outlined"
                         size="small"
                         fullWidth
@@ -126,7 +123,6 @@ const UpdateAssociation = (props) => {
                   <div>
                     <Box class="w-full inline-flex border">
                       <TextField
-                      label="enter contact person name"
                       variant="outlined"
                         size="small"
                         fullWidth
@@ -170,7 +166,6 @@ const UpdateAssociation = (props) => {
                         </svg>
                       </Box>
                       <TextField
-                      label="email@gmail.com"
                       variant="outlined"
                         size="small"
                         fullWidth
@@ -214,7 +209,6 @@ const UpdateAssociation = (props) => {
                         </svg>
                       </Box>
                       <TextField
-                      label="+251999999999"
                       variant="outlined"
                         size="small"
                         fullWidth
@@ -241,7 +235,7 @@ const UpdateAssociation = (props) => {
                   <div>
                     <Box class="w-full inline-flex border">
                       <TextField
-                      label="eg. 1,3,10,..."
+
                       variant="outlined"
                         size="small"
                         fullWidth
